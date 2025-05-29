@@ -1,6 +1,6 @@
 # TodoAPI
 
-API RESTful para gerenciar tarefas (todo items) com autenticação JWT e controle de acesso baseado em roles usando ASP.NET Core 8.0, Entity Framework Core e Identity.
+API RESTful para gerenciar tarefas (todo items) com autenticaÃ§Ã£o JWT e controle de acesso baseado em roles usando ASP.NET Core 8.0, Entity Framework Core e Identity.
 
 ---
 
@@ -16,9 +16,9 @@ API RESTful para gerenciar tarefas (todo items) com autenticação JWT e controle 
 
 ---
 
-## Setup rápido
+## Setup rÃ¡pido
 
-### Pré-requisitos
+### PrÃ©-requisitos
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
 - SQL Server (local ou remoto)  
@@ -28,7 +28,7 @@ API RESTful para gerenciar tarefas (todo items) com autenticação JWT e controle 
 
 1. Clone o repo:
    ```bash
-   git clone 
+   git clone https://github.com/Igorruan23/TodoAPI
    cd TodoAPI
 	 ```
 2.Ajuste o arquivo appsettings.json conforme seu ambiente:
@@ -44,11 +44,15 @@ API RESTful para gerenciar tarefas (todo items) com autenticação JWT e controle 
   }
 }
    ```
-3. Execute as migrations para criar o banco de dados:
+3.  Instale as dependÃªncias
+   ```bash
+	dotnet restore
+   ```
+4. Execute as migrations para criar o banco de dados:
    ```bash
     dotnet ef database update
     ```
-4. Rode o projeto:
+5. Rode o projeto:
    ```bash
    dotnet run
    ```
