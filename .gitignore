@@ -1,0 +1,53 @@
+# Build output
+/bin/
+/obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider files (se usar Rider)
+/.idea/
+
+# Arquivos de publish (deploy local)
+/publish/
+
+# Pacotes NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Logs e temp
+*.log
+*.tlog
+*.vspscc
+*.cache
+*.pdb
+
+# Configurações locais
+appsettings.Development.json
+appsettings.Local.json
+
+# Arquivos do sistema
+*.DS_Store
+Thumbs.db
+
+# Resposta a debug
+*.ilk
+*.iobj
+*.ipdb
+*.idb
+*.pdb
+
+# Azure Functions local settings
+local.settings.json
+
+# Secrets do dotnet user-secrets
+secrets.json
+
+# Node modules (se usar front)
+node_modules/
+
