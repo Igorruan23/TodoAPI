@@ -28,7 +28,7 @@ API RESTful para gerenciar tarefas (todo items) com autenticação JWT e control
 
 1. Clone o repo:
    ```bash
-   git clone https://github.com/Igorruan23/TodoAPI
+   git clone https://github.com/Igorruan23/TodoAPI.git
    cd TodoAPI
 	 ```
 2.Ajuste o arquivo appsettings.json conforme seu ambiente:
