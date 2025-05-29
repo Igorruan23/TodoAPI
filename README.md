@@ -28,11 +28,11 @@ API RESTful para gerenciar tarefas (todo items) com autenticação JWT e controle 
 
 1. Clone o repo:
    ```bash
-   git clone https://seurepositorio.git
+   git clone 
    cd TodoAPI
 	 ```
 2.Ajuste o arquivo appsettings.json conforme seu ambiente:
- ```bash
+ ```json
    {
   "ConnectionStrings": {
      "SQLConnection": "Server=SEU_SERVIDOR\\SQLEXPRESS;Database=ToDoDB;Trusted_Connection=True;TrustServerCertificate=true"
