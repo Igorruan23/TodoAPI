@@ -46,7 +46,7 @@ API RESTful para gerenciar tarefas (todo items) com autenticação JWT e control
    ```
 3.  Instale as dependências
    ```bash
-	dotnet restore
+    dotnet restore
    ```
 4. Execute as migrations para criar o banco de dados:
    ```bash
